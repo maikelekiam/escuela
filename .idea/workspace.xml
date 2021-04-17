@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5449e193-1f6f-42fc-a9e9-4c47cb5a2ccc" name="Default Changelist" comment="ISSUE #1: Creo clase ProfesorRepositorio" />
+    <list default="true" id="5449e193-1f6f-42fc-a9e9-4c47cb5a2ccc" name="Default Changelist" comment="Commit inicial (pero despues del moco)">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/translations.pot" beforeDir="false" afterPath="$PROJECT_DIR$/application/translations.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datanucleus.log" beforeDir="false" afterPath="$PROJECT_DIR$/datanucleus.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/escuela (1).iml" beforeDir="false" afterPath="$PROJECT_DIR$/escuela (1).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-simple/src/main/java/domainapp/modules/simple/dom/profesor/ProfesorRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-simple/src/main/java/domainapp/modules/simple/dom/profesor/ProfesorRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-simple/translations.pot" beforeDir="false" afterPath="$PROJECT_DIR$/module-simple/translations.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/logs/AuditerServiceLogging.log" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/logs/AuditerServiceLogging.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/logs/PublisherServiceLogging.log" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/logs/PublisherServiceLogging.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/logs/ThreadPoolSupport.log" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/logs/ThreadPoolSupport.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +65,53 @@
       <module name="escuela-application" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="escuela-webapp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="escuela-webapp" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618592651221</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit inicial (pero despues del moco)">
+      <created>1618638658505</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618638658505</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +255,7 @@
     <MESSAGE value="ISSUE #1: Creo clase Profesor" />
     <MESSAGE value="ISSUE #1: Agrego apellido y documento" />
     <MESSAGE value="ISSUE #1: Creo clase ProfesorRepositorio" />
-    <option name="LAST_COMMIT_MESSAGE" value="ISSUE #1: Creo clase ProfesorRepositorio" />
+    <MESSAGE value="Commit inicial (pero despues del moco)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial (pero despues del moco)" />
   </component>
 </project>

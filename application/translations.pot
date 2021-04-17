@@ -23,7 +23,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-04-17 02:45:33+\n"
+"POT-Creation-Date: 2021-04-17 02:57:53+\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -278,6 +278,11 @@ msgid "Include"
 msgstr ""
 
 
+#: domainapp.modules.simple.dom.profesor.ProfesorRepositorio#findByName(java.lang.String)
+msgid "Ingreso"
+msgstr ""
+
+
 #: org.apache.isis.applib.services.swagger.SwaggerService$Format#JSON
 msgid "Json"
 msgstr ""
@@ -321,7 +326,6 @@ msgstr ""
 
 #: domainapp.modules.simple.dom.profesor.Profesor#nombre
 #: domainapp.modules.simple.dom.profesor.ProfesorRepositorio#create(java.lang.String,java.lang.String,java.lang.String)
-#: domainapp.modules.simple.dom.profesor.ProfesorRepositorio#findByName(java.lang.String)
 msgid "Nombre"
 msgstr ""
 

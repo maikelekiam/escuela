@@ -1,8 +1,8 @@
-2021-04-17 02:46:29.826 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+2021-04-17 02:59:40.953 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
     <ixn:majorVersion>1</ixn:majorVersion>
     <ixn:minorVersion>0</ixn:minorVersion>
-    <ixn:transactionId>bb630ef2-277b-4cf3-aeb2-15147f3b8c8e</ixn:transactionId>
+    <ixn:transactionId>eb9a53f3-bc99-4d54-85f6-e515a2d7f756</ixn:transactionId>
     <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ixn:sequence>0</ixn:sequence>
         <ixn:target type="homepage.HomePageService" id="1"/>
@@ -12,8 +12,8 @@
         <ixn:title>homepage.HomePageService:1: homePage()</ixn:title>
         <ixn:metrics>
             <ixn:timings>
-                <com:startedAt>2021-04-17T02:46:29.612-03:00</com:startedAt>
-                <com:completedAt>2021-04-17T02:46:29.704-03:00</com:completedAt>
+                <com:startedAt>2021-04-17T02:59:40.747-03:00</com:startedAt>
+                <com:completedAt>2021-04-17T02:59:40.839-03:00</com:completedAt>
             </ixn:timings>
             <ixn:objectCounts>
                 <ixn:loaded before="0" after="0"/>
@@ -27,47 +27,11 @@
     </ixn:execution>
 </ixn:interactionDto>
 
-2021-04-17 02:46:43.567 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+2021-04-17 02:59:59.310 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
     <ixn:majorVersion>1</ixn:majorVersion>
     <ixn:minorVersion>0</ixn:minorVersion>
-    <ixn:transactionId>9b9d269d-dbe4-403f-9bea-852e5b727890</ixn:transactionId>
-    <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <ixn:sequence>0</ixn:sequence>
-        <ixn:target type="simple.ProfesorMenu" id="1"/>
-        <ixn:logicalMemberIdentifier>simple.ProfesorMenu#listAll()</ixn:logicalMemberIdentifier>
-        <ixn:memberIdentifier>domainapp.modules.simple.dom.profesor.ProfesorRepositorio#listAll()</ixn:memberIdentifier>
-        <ixn:user>sven</ixn:user>
-        <ixn:title>simple.ProfesorMenu:1: listAll()</ixn:title>
-        <ixn:metrics>
-            <ixn:timings>
-                <com:startedAt>2021-04-17T02:46:43.526-03:00</com:startedAt>
-                <com:completedAt>2021-04-17T02:46:43.559-03:00</com:completedAt>
-            </ixn:timings>
-            <ixn:objectCounts>
-                <ixn:loaded before="0" after="2"/>
-                <ixn:dirtied before="0" after="0"/>
-            </ixn:objectCounts>
-        </ixn:metrics>
-        <ixn:parameters/>
-        <ixn:returned type="collection" null="false">
-            <com:collection type="reference">
-                <com:value>
-                    <com:reference type="simple.Profesor" id="1"/>
-                </com:value>
-                <com:value>
-                    <com:reference type="simple.Profesor" id="2"/>
-                </com:value>
-            </com:collection>
-        </ixn:returned>
-    </ixn:execution>
-</ixn:interactionDto>
-
-2021-04-17 02:46:53.592 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
-    <ixn:majorVersion>1</ixn:majorVersion>
-    <ixn:minorVersion>0</ixn:minorVersion>
-    <ixn:transactionId>974b2679-1100-4566-a4b4-81450fe3fe0a</ixn:transactionId>
+    <ixn:transactionId>3053e445-a034-45a6-b090-11c6e4176dca</ixn:transactionId>
     <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ixn:sequence>0</ixn:sequence>
         <ixn:target type="simple.ProfesorMenu" id="1"/>
@@ -77,8 +41,8 @@
         <ixn:title>simple.ProfesorMenu:1: findByName()</ixn:title>
         <ixn:metrics>
             <ixn:timings>
-                <com:startedAt>2021-04-17T02:46:53.540-03:00</com:startedAt>
-                <com:completedAt>2021-04-17T02:46:53.586-03:00</com:completedAt>
+                <com:startedAt>2021-04-17T02:59:59.245-03:00</com:startedAt>
+                <com:completedAt>2021-04-17T02:59:59.303-03:00</com:completedAt>
             </ixn:timings>
             <ixn:objectCounts>
                 <ixn:loaded before="0" after="0"/>
@@ -86,25 +50,21 @@
             </ixn:objectCounts>
         </ixn:metrics>
         <ixn:parameters>
-            <cmd:parameter name="Nombre" type="string" null="false">
-                <com:string>Juan</com:string>
+            <cmd:parameter name="Ingreso" type="string" null="false">
+                <com:string>x</com:string>
             </cmd:parameter>
         </ixn:parameters>
         <ixn:returned type="collection" null="false">
-            <com:collection type="reference">
-                <com:value>
-                    <com:reference type="simple.Profesor" id="1"/>
-                </com:value>
-            </com:collection>
+            <com:collection type="reference"/>
         </ixn:returned>
     </ixn:execution>
 </ixn:interactionDto>
 
-2021-04-17 02:47:01.598 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+2021-04-17 03:00:05.032 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
     <ixn:majorVersion>1</ixn:majorVersion>
     <ixn:minorVersion>0</ixn:minorVersion>
-    <ixn:transactionId>b79cf3b1-d88e-4285-9559-7bdbf20e504f</ixn:transactionId>
+    <ixn:transactionId>cf94f595-4b4d-4567-842d-075a837c454d</ixn:transactionId>
     <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ixn:sequence>0</ixn:sequence>
         <ixn:target type="simple.ProfesorMenu" id="1"/>
@@ -114,8 +74,8 @@
         <ixn:title>simple.ProfesorMenu:1: findByName()</ixn:title>
         <ixn:metrics>
             <ixn:timings>
-                <com:startedAt>2021-04-17T02:47:01.584-03:00</com:startedAt>
-                <com:completedAt>2021-04-17T02:47:01.589-03:00</com:completedAt>
+                <com:startedAt>2021-04-17T03:00:04.981-03:00</com:startedAt>
+                <com:completedAt>2021-04-17T03:00:04.987-03:00</com:completedAt>
             </ixn:timings>
             <ixn:objectCounts>
                 <ixn:loaded before="0" after="0"/>
@@ -123,7 +83,7 @@
             </ixn:objectCounts>
         </ixn:metrics>
         <ixn:parameters>
-            <cmd:parameter name="Nombre" type="string" null="false">
+            <cmd:parameter name="Ingreso" type="string" null="false">
                 <com:string>a</com:string>
             </cmd:parameter>
         </ixn:parameters>
@@ -140,11 +100,143 @@
     </ixn:execution>
 </ixn:interactionDto>
 
-2021-04-17 02:47:14.707 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+2021-04-17 03:00:18.645 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
     <ixn:majorVersion>1</ixn:majorVersion>
     <ixn:minorVersion>0</ixn:minorVersion>
-    <ixn:transactionId>20100cb8-fb1a-4a38-9d7f-0cce1de22f1f</ixn:transactionId>
+    <ixn:transactionId>90b0a6b6-eb8a-4a00-a580-d5458a2bc7cd</ixn:transactionId>
+    <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ixn:sequence>0</ixn:sequence>
+        <ixn:target type="simple.ProfesorMenu" id="1"/>
+        <ixn:logicalMemberIdentifier>simple.ProfesorMenu#findByName()</ixn:logicalMemberIdentifier>
+        <ixn:memberIdentifier>domainapp.modules.simple.dom.profesor.ProfesorRepositorio#findByName()</ixn:memberIdentifier>
+        <ixn:user>sven</ixn:user>
+        <ixn:title>simple.ProfesorMenu:1: findByName()</ixn:title>
+        <ixn:metrics>
+            <ixn:timings>
+                <com:startedAt>2021-04-17T03:00:18.635-03:00</com:startedAt>
+                <com:completedAt>2021-04-17T03:00:18.639-03:00</com:completedAt>
+            </ixn:timings>
+            <ixn:objectCounts>
+                <ixn:loaded before="0" after="0"/>
+                <ixn:dirtied before="0" after="0"/>
+            </ixn:objectCounts>
+        </ixn:metrics>
+        <ixn:parameters>
+            <cmd:parameter name="Ingreso" type="string" null="false">
+                <com:string>Juan</com:string>
+            </cmd:parameter>
+        </ixn:parameters>
+        <ixn:returned type="collection" null="false">
+            <com:collection type="reference">
+                <com:value>
+                    <com:reference type="simple.Profesor" id="1"/>
+                </com:value>
+            </com:collection>
+        </ixn:returned>
+    </ixn:execution>
+</ixn:interactionDto>
+
+2021-04-17 03:00:29.262 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
+    <ixn:majorVersion>1</ixn:majorVersion>
+    <ixn:minorVersion>0</ixn:minorVersion>
+    <ixn:transactionId>113b84b5-4bc0-445c-b3f3-225a9a8caf93</ixn:transactionId>
+    <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ixn:sequence>0</ixn:sequence>
+        <ixn:target type="simple.ProfesorMenu" id="1"/>
+        <ixn:logicalMemberIdentifier>simple.ProfesorMenu#findByName()</ixn:logicalMemberIdentifier>
+        <ixn:memberIdentifier>domainapp.modules.simple.dom.profesor.ProfesorRepositorio#findByName()</ixn:memberIdentifier>
+        <ixn:user>sven</ixn:user>
+        <ixn:title>simple.ProfesorMenu:1: findByName()</ixn:title>
+        <ixn:metrics>
+            <ixn:timings>
+                <com:startedAt>2021-04-17T03:00:29.250-03:00</com:startedAt>
+                <com:completedAt>2021-04-17T03:00:29.258-03:00</com:completedAt>
+            </ixn:timings>
+            <ixn:objectCounts>
+                <ixn:loaded before="0" after="0"/>
+                <ixn:dirtied before="0" after="0"/>
+            </ixn:objectCounts>
+        </ixn:metrics>
+        <ixn:parameters>
+            <cmd:parameter name="Ingreso" type="string" null="false">
+                <com:string>Arcam</com:string>
+            </cmd:parameter>
+        </ixn:parameters>
+        <ixn:returned type="collection" null="false">
+            <com:collection type="reference">
+                <com:value>
+                    <com:reference type="simple.Profesor" id="2"/>
+                </com:value>
+            </com:collection>
+        </ixn:returned>
+    </ixn:execution>
+</ixn:interactionDto>
+
+2021-04-17 03:00:37.807 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
+    <ixn:majorVersion>1</ixn:majorVersion>
+    <ixn:minorVersion>0</ixn:minorVersion>
+    <ixn:transactionId>20404ee6-e954-49af-adb1-7d7e8b981ee7</ixn:transactionId>
+    <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ixn:sequence>0</ixn:sequence>
+        <ixn:target type="simple.ProfesorMenu" id="1"/>
+        <ixn:logicalMemberIdentifier>simple.ProfesorMenu#create()</ixn:logicalMemberIdentifier>
+        <ixn:memberIdentifier>domainapp.modules.simple.dom.profesor.ProfesorRepositorio#create()</ixn:memberIdentifier>
+        <ixn:user>sven</ixn:user>
+        <ixn:title>simple.ProfesorMenu:1: create()</ixn:title>
+        <ixn:metrics>
+            <ixn:timings>
+                <com:startedAt>2021-04-17T03:00:37.773-03:00</com:startedAt>
+                <com:completedAt>2021-04-17T03:00:37.778-03:00</com:completedAt>
+            </ixn:timings>
+            <ixn:objectCounts>
+                <ixn:loaded before="0" after="0"/>
+                <ixn:dirtied before="0" after="0"/>
+            </ixn:objectCounts>
+        </ixn:metrics>
+        <ixn:parameters>
+            <cmd:parameter name="Nombre" type="string" null="false">
+                <com:string>1</com:string>
+            </cmd:parameter>
+            <cmd:parameter name="Apellido" type="string" null="false">
+                <com:string>2</com:string>
+            </cmd:parameter>
+            <cmd:parameter name="Documento" type="string" null="false">
+                <com:string>3</com:string>
+            </cmd:parameter>
+        </ixn:parameters>
+        <ixn:returned type="reference" null="false">
+            <com:reference objectState="transient" type="simple.Profesor" id="37339698-7e5c-41f8-bd65-7684a866e59b"/>
+        </ixn:returned>
+    </ixn:execution>
+</ixn:interactionDto>
+
+2021-04-17 03:00:37.833 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chg:changesDto xmlns:com="http://isis.apache.org/schema/common" xmlns:chg="http://isis.apache.org/schema/chg">
+    <chg:majorVersion>1</chg:majorVersion>
+    <chg:minorVersion>0</chg:minorVersion>
+    <chg:transactionId>20404ee6-e954-49af-adb1-7d7e8b981ee7</chg:transactionId>
+    <chg:sequence>3</chg:sequence>
+    <chg:completedAt>2021-04-17T03:00:37.827-03:00</chg:completedAt>
+    <chg:user>sven</chg:user>
+    <chg:objects>
+        <chg:loaded>0</chg:loaded>
+        <chg:created>
+            <com:oid type="simple.Profesor" id="3"/>
+        </chg:created>
+        <chg:updated/>
+        <chg:deleted/>
+        <chg:propertiesModified>3</chg:propertiesModified>
+    </chg:objects>
+</chg:changesDto>
+
+2021-04-17 03:00:39.991 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
+    <ixn:majorVersion>1</ixn:majorVersion>
+    <ixn:minorVersion>0</ixn:minorVersion>
+    <ixn:transactionId>770c6f76-2259-4d71-9d4f-0bb31d91968f</ixn:transactionId>
     <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ixn:sequence>0</ixn:sequence>
         <ixn:target type="simple.ProfesorMenu" id="1"/>
@@ -154,11 +246,11 @@
         <ixn:title>simple.ProfesorMenu:1: listAll()</ixn:title>
         <ixn:metrics>
             <ixn:timings>
-                <com:startedAt>2021-04-17T02:47:14.694-03:00</com:startedAt>
-                <com:completedAt>2021-04-17T02:47:14.700-03:00</com:completedAt>
+                <com:startedAt>2021-04-17T03:00:39.972-03:00</com:startedAt>
+                <com:completedAt>2021-04-17T03:00:39.983-03:00</com:completedAt>
             </ixn:timings>
             <ixn:objectCounts>
-                <ixn:loaded before="0" after="2"/>
+                <ixn:loaded before="0" after="3"/>
                 <ixn:dirtied before="0" after="0"/>
             </ixn:objectCounts>
         </ixn:metrics>
@@ -170,6 +262,114 @@
                 </com:value>
                 <com:value>
                     <com:reference type="simple.Profesor" id="2"/>
+                </com:value>
+                <com:value>
+                    <com:reference type="simple.Profesor" id="3"/>
+                </com:value>
+            </com:collection>
+        </ixn:returned>
+    </ixn:execution>
+</ixn:interactionDto>
+
+2021-04-17 03:00:42.757 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
+    <ixn:majorVersion>1</ixn:majorVersion>
+    <ixn:minorVersion>0</ixn:minorVersion>
+    <ixn:transactionId>291d6bde-7ef8-4faa-803f-46f2779d1d1f</ixn:transactionId>
+    <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ixn:sequence>0</ixn:sequence>
+        <ixn:target type="simple.SimpleObjectMenu" id="1"/>
+        <ixn:logicalMemberIdentifier>simple.SimpleObjectMenu#listAll()</ixn:logicalMemberIdentifier>
+        <ixn:memberIdentifier>domainapp.modules.simple.dom.impl.SimpleObjects#listAll()</ixn:memberIdentifier>
+        <ixn:user>sven</ixn:user>
+        <ixn:title>simple.SimpleObjectMenu:1: listAll()</ixn:title>
+        <ixn:metrics>
+            <ixn:timings>
+                <com:startedAt>2021-04-17T03:00:42.746-03:00</com:startedAt>
+                <com:completedAt>2021-04-17T03:00:42.752-03:00</com:completedAt>
+            </ixn:timings>
+            <ixn:objectCounts>
+                <ixn:loaded before="0" after="0"/>
+                <ixn:dirtied before="0" after="0"/>
+            </ixn:objectCounts>
+        </ixn:metrics>
+        <ixn:parameters/>
+        <ixn:returned type="collection" null="false">
+            <com:collection type="reference"/>
+        </ixn:returned>
+    </ixn:execution>
+</ixn:interactionDto>
+
+2021-04-17 03:00:45.592 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
+    <ixn:majorVersion>1</ixn:majorVersion>
+    <ixn:minorVersion>0</ixn:minorVersion>
+    <ixn:transactionId>7890b043-49f9-4b1e-a78e-a32bc65dd52d</ixn:transactionId>
+    <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ixn:sequence>0</ixn:sequence>
+        <ixn:target type="simple.ProfesorMenu" id="1"/>
+        <ixn:logicalMemberIdentifier>simple.ProfesorMenu#listAll()</ixn:logicalMemberIdentifier>
+        <ixn:memberIdentifier>domainapp.modules.simple.dom.profesor.ProfesorRepositorio#listAll()</ixn:memberIdentifier>
+        <ixn:user>sven</ixn:user>
+        <ixn:title>simple.ProfesorMenu:1: listAll()</ixn:title>
+        <ixn:metrics>
+            <ixn:timings>
+                <com:startedAt>2021-04-17T03:00:45.577-03:00</com:startedAt>
+                <com:completedAt>2021-04-17T03:00:45.582-03:00</com:completedAt>
+            </ixn:timings>
+            <ixn:objectCounts>
+                <ixn:loaded before="0" after="3"/>
+                <ixn:dirtied before="0" after="0"/>
+            </ixn:objectCounts>
+        </ixn:metrics>
+        <ixn:parameters/>
+        <ixn:returned type="collection" null="false">
+            <com:collection type="reference">
+                <com:value>
+                    <com:reference type="simple.Profesor" id="1"/>
+                </com:value>
+                <com:value>
+                    <com:reference type="simple.Profesor" id="2"/>
+                </com:value>
+                <com:value>
+                    <com:reference type="simple.Profesor" id="3"/>
+                </com:value>
+            </com:collection>
+        </ixn:returned>
+    </ixn:execution>
+</ixn:interactionDto>
+
+2021-04-17 03:00:57.344 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ixn:interactionDto xmlns:com="http://isis.apache.org/schema/common" xmlns:cmd="http://isis.apache.org/schema/cmd" xmlns:ixn="http://isis.apache.org/schema/ixn">
+    <ixn:majorVersion>1</ixn:majorVersion>
+    <ixn:minorVersion>0</ixn:minorVersion>
+    <ixn:transactionId>0a6f519d-09ad-402d-a4d7-f74aadc9b6d8</ixn:transactionId>
+    <ixn:execution xsi:type="ixn:actionInvocationDto" interactionType="action_invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ixn:sequence>0</ixn:sequence>
+        <ixn:target type="simple.ProfesorMenu" id="1"/>
+        <ixn:logicalMemberIdentifier>simple.ProfesorMenu#findByName()</ixn:logicalMemberIdentifier>
+        <ixn:memberIdentifier>domainapp.modules.simple.dom.profesor.ProfesorRepositorio#findByName()</ixn:memberIdentifier>
+        <ixn:user>sven</ixn:user>
+        <ixn:title>simple.ProfesorMenu:1: findByName()</ixn:title>
+        <ixn:metrics>
+            <ixn:timings>
+                <com:startedAt>2021-04-17T03:00:57.326-03:00</com:startedAt>
+                <com:completedAt>2021-04-17T03:00:57.330-03:00</com:completedAt>
+            </ixn:timings>
+            <ixn:objectCounts>
+                <ixn:loaded before="0" after="0"/>
+                <ixn:dirtied before="0" after="0"/>
+            </ixn:objectCounts>
+        </ixn:metrics>
+        <ixn:parameters>
+            <cmd:parameter name="Ingreso" type="string" null="false">
+                <com:string>2</com:string>
+            </cmd:parameter>
+        </ixn:parameters>
+        <ixn:returned type="collection" null="false">
+            <com:collection type="reference">
+                <com:value>
+                    <com:reference type="simple.Profesor" id="3"/>
                 </com:value>
             </com:collection>
         </ixn:returned>

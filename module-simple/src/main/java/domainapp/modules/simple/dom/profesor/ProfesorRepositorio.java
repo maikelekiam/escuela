@@ -48,7 +48,7 @@ public class ProfesorRepositorio {
     @ActionLayout(bookmarking = BookmarkPolicy.AS_ROOT)
     @MemberOrder(sequence = "2")
     public List<Profesor> findByName(
-            @ParameterLayout(named="Nombre") final String ingreso
+            @ParameterLayout(named="Ingreso") final String ingreso
     ) {
         TypesafeQuery<Profesor> q = isisJdoSupport.newTypesafeQuery(Profesor.class);
         final QProfesor cand = QProfesor.candidate();
@@ -62,13 +62,19 @@ public class ProfesorRepositorio {
     }
 
     @Programmatic
-    public Profesor findByNameExact(final String nombre) {
+    public Profesor findByNombreYApellido (
+            final String nombre,
+            final String apellido
+    ) {
         TypesafeQuery<Profesor> q = isisJdoSupport.newTypesafeQuery(Profesor.class);
         final QProfesor cand = QProfesor.candidate();
         q = q.filter(
-                cand.nombre.eq(q.stringParameter("nombre"))
+                cand.nombre.eq(q.stringParameter("nombre")).and(
+                cand.apellido.eq(q.stringParameter("apellido"))
+                )
         );
         return q.setParameter("nombre", nombre)
+                .setParameter("apellido", apellido)
                 .executeUnique();
     }
 

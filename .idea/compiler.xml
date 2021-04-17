@@ -14,7 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="escuela" target="1.8" />
-      <module name="escuela (1)" target="1.5" />
+      <module name="escuela (1)" target="1.8" />
       <module name="escuela (2)" target="1.5" />
       <module name="escuela-application" target="1.8" />
       <module name="escuela-module-simple" target="1.8" />
