@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.webjars:webjars-servlet-2.x:1.5">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/webjars-servlet-2.x/1.5/webjars-servlet-2.x-1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/webjars-servlet-2.x/1.5/webjars-servlet-2.x-1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/webjars-servlet-2.x/1.5/webjars-servlet-2.x-1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
